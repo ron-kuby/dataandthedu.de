@@ -1,0 +1,53 @@
+baseurl = "dataandthedu.de"
+title = "data_and_the_dude"
+theme = "hugo-theme-cleanwhite"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "dataandthedu-de"
+googleAnalytics = "UA-123648735"
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+hasCJKLanguage = true
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "img/dude.png"
+  SEOTitle = "data_and_the_dude Matt Brown"
+  description = "A site for all things data and the Big Lebowski"
+  keyword = "Matt Brown, data, analytics, modeling, data science, dude, big lebowski, hugo, blog"
+  slogan = "the data abides"
+
+  image_404 = "img/404-bg.jpg"
+  title_404 = "你来到了没有知识的荒原 :("
+
+  # algolia site search
+  algolia_search = true
+  algolia_appId = "1GTT8MZR00"
+  algolia_indexName = "dataandthedu.de"
+  algolia_apiKey = "6fa2478b51cf969c03a03fcdf3cd1517"
+
+  # Sidebar settings
+  sidebar_about_description = "Data Enthusiast, Software Engineer and fan of Donny"
+  sidebar_avatar = "img/profile.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true
+  featured_condition_size = 2
+
+  [params.social]
+  rss            = true
+  email          = "ron.el.kuby@gmail.com"
+  twitter       = "https://www.twitter.com/mattericbrown"
+  linkedin       = "https://www.linkedin.com/in/mattericbrown"
+  github         = "https://www.github.com/ron-kuby"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"]
