@@ -1,4 +1,4 @@
-baseurl = "dataandthedu.de"
+baseurl = "https://dataandthedu.de"
 title = "data_and_the_dude"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
@@ -19,8 +19,8 @@ home = ["HTML", "RSS", "Algolia"]
   keyword = "Matt Brown, data, analytics, modeling, data science, dude, big lebowski, hugo, blog"
   slogan = "the data abides"
 
-  image_404 = "img/404-bg.jpg"
-  title_404 = "你来到了没有知识的荒原 :("
+  image_404 = "img/imthedudeman1.jpg"
+  title_404 = "You got the wrong page man, I'm the 404"
 
   # algolia site search
   algolia_search = true
