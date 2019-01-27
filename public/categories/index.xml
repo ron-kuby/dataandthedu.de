@@ -10,5 +10,14 @@
 	<atom:link href="https://dataandthedu.de/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Data</title>
+      <link>https://dataandthedu.de/categories/data/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dataandthedu.de/categories/data/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

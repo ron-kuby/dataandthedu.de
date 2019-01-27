@@ -1,5 +1,5 @@
-baseurl = "https://dataandthedu.de"
-title = "data_and_the_dude"
+baseurl = "http://devandthedu.de"
+title = "dev_and_the_dude"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -14,10 +14,10 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/dude.png"
-  SEOTitle = "data_and_the_dude Matt Brown"
-  description = "A site for all things data and the Big Lebowski"
-  keyword = "Matt Brown, data, analytics, modeling, data science, dude, big lebowski, hugo, blog"
-  slogan = "the data abides"
+  SEOTitle = "devandthedude Matt Brown"
+  description = "A site for all things web and the Big Lebowski"
+  keyword = "Matt Brown, web, webdev, javascript, dude, big lebowski, hugo, blog"
+  slogan = "the web abides"
 
   image_404 = "img/imthedudeman1.jpg"
   title_404 = "You got the wrong page man, I'm the 404"
@@ -29,7 +29,7 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = "6fa2478b51cf969c03a03fcdf3cd1517"
 
   # Sidebar settings
-  sidebar_about_description = "Data Enthusiast, Software Engineer and fan of Donny"
+  sidebar_about_description = "Web Enthusiast, Software Engineer and fan of Donny"
   sidebar_avatar = "img/profile.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true
